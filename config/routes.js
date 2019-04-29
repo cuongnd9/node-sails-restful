@@ -20,7 +20,11 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-
+  'get /api/cats': 'CatController.getCats',
+  'post /api/cats': 'CatController.createCat',
+  'get /api/cats/:id': 'CatController.getCat',
+  'put /api/cats/:id': 'CatController.updateCat',
+  'delete /api/cats/:id': 'CatController.deleteCat',
 
   /***************************************************************************
   *                                                                          *

@@ -21,3 +21,13 @@ Run this project:
 ```sh
 $ sails lift
 ```
+
+## API
+
+| Route            | HTTP method | Description                 |
+|------------------|-------------|-----------------------------|
+| /api/cats        | `GET`       | Get all the cats.           |
+| /api/cats        | `POST`      | Create a cat.               |
+| /api/cats/:catId | `GET`       | Get a single cat.           |
+| /api/cats/:catId | `PUT`       | Update a cat with new info. |
+| /api/cats/:catId | `DELETE`    | Delete a cat.               |
